@@ -8,4 +8,5 @@ It is a responsive HTML & CSS website.
 
 ## Sources:
 Icons: https://icons8.com/icon/set/social-media/ios-filled
+
 Colors: https://htmlcolorcodes.com/color-names/
