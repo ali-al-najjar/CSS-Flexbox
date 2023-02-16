@@ -57,6 +57,7 @@ header{
 
 .banner-product {
   flex: 1;
+  z-index: 1;
 }
 
 .baner-description {
@@ -143,6 +144,8 @@ a.product-details {
   width: 75%;
   margin:0 auto;
   padding:10%;
+  z-index: 2;
+  position: relative;
 }
 .row{
   display:flex;
@@ -177,4 +180,36 @@ footer{
   font-size: 2em;
   color: white;
   margin-bottom: 5%;
+}
+
+/********************** End Footer Design ****************/
+
+/********************* Product Page *************************/
+
+.product-details {
+  display: flex;
+  width: 80%;
+  margin: 5% auto 5% auto;
+  padding: 5%;
+  background-color: #e0e0e0;
+  position: relative;
+  z-index: 2;
+}
+.product-info {
+  flex: 1;
+  margin-top: 20%;
+}
+.product-image {
+  flex: 1;
+}
+.product-page-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+.product-page-price, .product-page-sku, .product-page-description, .product-page-size, .product-page-fabrik{
+  font-size: 1.5em;
+}
+
+.product-info .btn-cart{
+  width:40%;
 }
