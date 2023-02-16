@@ -4,6 +4,9 @@
   padding:0;
 }
 
+
+
+
 a{
   text-decoration:none;
 }
@@ -129,7 +132,7 @@ header{
   padding: 5% 0;
 }
 
-a.product-details {
+a.view-details {
   font-size: 0.9em;
   color: gray;
   text-decoration: underline;
@@ -140,33 +143,32 @@ a.product-details {
 
 /****************** Grid Design **********************/
 
-.products_grid{
-  width: 75%;
+
+.products_grid {
+  display: flex;
+  width: 80%;
+  height: auto;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: wrap;
   margin:0 auto;
-  padding:10%;
   z-index: 2;
   position: relative;
-}
-.row{
-  display:flex;
-  gap:2%;
-  margin-bottom:2%;
+  padding: 5%;
 }
 
-.column{
-  padding:1rem;
-  flex:1;
+.product{
+  padding: 1rem;
   background-color: #e0e0e0;
   border-radius: 5px;
-  
+  width: 20%;
+  margin-bottom: 2%;
 }
 
-.column:hover{
-  /* box-shadow: 5px 5px lightgray; */
+.product:hover {
   transition: 0.3s;
   transform: scale(1.05);
 }
-
 /****************** End of Grid Design **********************/
 
 /****************** Footer Desgin ****************************/
@@ -213,3 +215,184 @@ footer{
 .product-info .btn-cart{
   width:40%;
 }
+
+
+/********************** Responsive Design ******************/
+@media (min-width:350px){
+.product {
+    padding: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.banner-title {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.baner-description {
+  font-size: 1.3em;
+  width: 100%;
+  padding-left: 2%;
+  color: white;
+}
+.banner {
+  display: block;
+  padding: 5%;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  padding: 5%;
+}
+
+.navigation {
+    color: white;
+    padding: 2%;
+}
+} 
+
+@media (min-width: 640px) {
+  .product {
+      padding: 1rem;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 5%;
+  }
+  .banner-title {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .baner-description {
+    font-size: 1.3em;
+    width: 100%;
+    padding-left: 2%;
+    color: white;
+  }
+  .banner {
+    display: block;
+    padding: 5%;
+  }
+  
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    padding: 5%;
+  }
+  
+  .navigation {
+      color: white;
+      padding: 2%;
+  }
+  } 
+  
+@media (min-width: 768px){
+  .product {
+    padding: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 4%;
+}
+  .banner-title {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .baner-description {
+    font-size: 1.3em;
+    width: 100%;
+    padding-left: 2%;
+    color: white;
+  }
+  .banner {
+    display: block;
+    padding: 5%;
+  }
+  
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    padding: 5%;
+  }
+  
+  .navigation {
+      color: white;
+      padding: 2%;
+  }
+  }
+
+  @media (min-width: 1024px) {
+    .product {
+      padding: 1rem;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      width: 28%;
+      margin-bottom: 2%;
+  }
+    .banner-title {
+      font-size: 3em;
+      color: white;
+      font-weight: bold;
+  }
+    
+    .baner-description {
+      font-size: 2em;
+      width: 100%;
+      padding-left: 2%;
+      color: white;
+  }
+    .banner {
+      display: flex;
+      padding: 5%;
+  }
+    
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 0;
+      padding: 5%;
+    }
+    
+    .navigation {
+        color: white;
+        padding: 2%;
+    }
+    .banner-content {
+      flex: 2;
+  }
+  
+  .banner-product {
+    flex: 2;
+    z-index: 1;
+}
+    }
+
+  @media (min-width: 1280px) {
+    .product {
+      padding: 1rem;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      width: 20%;
+      margin-bottom: 4%;
+  }
+   }
+   /* @media only screen and (min-width: 1536px) {
+    .product {
+      padding: 1rem;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      width: 25%;
+      margin-bottom: 4%;
+  }
+   } */
