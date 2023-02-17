@@ -217,8 +217,49 @@ footer{
 .product-info .btn-cart{
   width:40%;
 }
+/********************** Enf of Product Page ****************/
 
+/********************** Contact Page ************************/
 
+.social-icons {
+  display: flex;
+  padding-top: 0;
+  flex-direction: row;
+  padding-left: 2%;
+  flex-flow: wrap;
+}
+
+.contact-follow {
+  padding-left: 2%;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-baner-description {
+  padding-left: 2%;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-banner-title {
+  padding-left: 2%;
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-banner-item {
+  width: 50%;
+}
+
+.contact-banner {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  padding: 2%;
+}
 /********************** Responsive Design ******************/
 @media (min-width:350px){
 .product {
@@ -258,6 +299,9 @@ footer{
   background-color: #e0e0e0;
   position: relative;
   flex-flow: wrap;
+}
+.contact-banner-item {
+  width: 100%;
 }
 } 
 
@@ -299,6 +343,9 @@ footer{
   position: relative;
   flex-flow: wrap;
 }
+.contact-banner-item {
+  width: 100%;
+}
   } 
   
 @media (min-width: 768px){
@@ -339,6 +386,9 @@ footer{
   position: relative;
   flex-flow: wrap;
 }
+.contact-banner-item {
+  width: 50%;
+}
   }
 
   @media (min-width: 1024px) {
@@ -378,6 +428,9 @@ footer{
   position: relative;
   flex-flow: wrap;
 }
+.contact-banner-item {
+  width: 50%;
+}
   }
 
   @media (min-width: 1280px) {
@@ -416,6 +469,9 @@ footer{
   background-color: #e0e0e0;
   position: relative;
   flex-flow: wrap;
+}
+.contact-banner-item {
+  width: 50%;
 }
    }
    /* @media only screen and (min-width: 1536px) {
