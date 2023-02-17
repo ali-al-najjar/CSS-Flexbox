@@ -11,4 +11,6 @@ Icons: https://icons8.com/icon/set/social-media/ios-filled
 
 Colors: https://htmlcolorcodes.com/color-names/
 
-Youtube Video: https://www.youtube.com/watch?v=eu4TRpAhTpM&t=107s
+Youtube Video: 
+* https://www.youtube.com/watch?v=eu4TRpAhTpM&t=107s
+* https://www.youtube.com/watch?v=0SktamdLLAQ
