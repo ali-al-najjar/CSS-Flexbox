@@ -14,3 +14,5 @@ Colors: https://htmlcolorcodes.com/color-names/
 Youtube Video: 
 * https://www.youtube.com/watch?v=eu4TRpAhTpM&t=107s
 * https://www.youtube.com/watch?v=0SktamdLLAQ
+
+Favicon Generator: https://favicon.io/favicon-generator/
