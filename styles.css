@@ -4,9 +4,6 @@
   padding:0;
 }
 
-
-
-
 a{
   text-decoration:none;
 }
@@ -14,7 +11,7 @@ a{
 
 header{
   background-color: #8bc34a;
-  height:600px;
+  height:auto;
 }
 
 .top-header{
@@ -44,13 +41,16 @@ header{
 /******************* banner design ****************/
 
 .banner {
-  display:flex;
+  display: flex;
   padding: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.banner-content {
-  flex: 1;
+.banner-content img {
+  width: 500px;
 }
+
 
 .banner-title {
   font-size: 4em;
@@ -95,6 +95,10 @@ header{
 
 .banner-shop {
   margin-top: 4%;
+}
+
+.banner-content img {
+  display:initial;
 }
 /******************* Card Design *****************/
 
@@ -226,33 +230,21 @@ footer{
     width: 100%;
     margin-bottom: 5%;
 }
-.banner-title {
-  font-size: 2em;
-  color: white;
-  font-weight: bold;
-}
-
-.baner-description {
-  font-size: 1.3em;
-  width: 100%;
-  padding-left: 2%;
-  color: white;
-}
 .banner {
-  display: block;
-  padding: 5%;
-}
-
-.top-header {
   display: flex;
-  justify-content: space-between;
-  gap: 0;
-  padding: 5%;
+  padding-top: 0;
+  flex-direction: row;
+  flex-flow: wrap;
 }
-
-.navigation {
-    color: white;
-    padding: 2%;
+.banner-content {
+  padding: 1rem;
+  /* background-color: #e0e0e0; */
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.banner-content img {
+  display:none;
 }
 } 
 
@@ -264,33 +256,21 @@ footer{
       width: 100%;
       margin-bottom: 5%;
   }
-  .banner-title {
-    font-size: 2em;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .baner-description {
-    font-size: 1.3em;
-    width: 100%;
-    padding-left: 2%;
-    color: white;
-  }
   .banner {
-    display: block;
-    padding: 5%;
-  }
-  
-  .top-header {
     display: flex;
-    justify-content: space-between;
-    gap: 0;
-    padding: 5%;
+    padding-top: 0;
+    flex-direction: row;
+    flex-flow: wrap;
   }
-  
-  .navigation {
-      color: white;
-      padding: 2%;
+  .banner-content {
+    padding: 1rem;
+    /* background-color: #e0e0e0; */
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .banner-content img {
+    display:none;
   }
   } 
   
@@ -302,34 +282,22 @@ footer{
     width: 40%;
     margin-bottom: 4%;
 }
-  .banner-title {
-    font-size: 2em;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .baner-description {
-    font-size: 1.3em;
-    width: 100%;
-    padding-left: 2%;
-    color: white;
-  }
-  .banner {
-    display: block;
-    padding: 5%;
-  }
-  
-  .top-header {
-    display: flex;
-    justify-content: space-between;
-    gap: 0;
-    padding: 5%;
-  }
-  
-  .navigation {
-      color: white;
-      padding: 2%;
-  }
+.banner {
+  display: flex;
+  padding-top: 0;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.banner-content {
+  padding: 1rem;
+  /* background-color: #e0e0e0; */
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.banner-content img {
+  display:none;
+}
   }
 
   @media (min-width: 1024px) {
@@ -340,43 +308,23 @@ footer{
       width: 28%;
       margin-bottom: 2%;
   }
-    .banner-title {
-      font-size: 3em;
-      color: white;
-      font-weight: bold;
+  .banner {
+    display: flex;
+    padding-top: 0;
+    flex-direction: row;
+    flex-flow: wrap;
   }
-    
-    .baner-description {
-      font-size: 2em;
-      width: 100%;
-      padding-left: 2%;
-      color: white;
+  .banner-content {
+    padding: 1rem;
+    /* background-color: #e0e0e0; */
+    border-radius: 5px;
+    width: 45%;
+    margin-bottom: 5%;
   }
-    .banner {
-      display: flex;
-      padding: 5%;
+  .banner-content img {
+    display:initial;
   }
-    
-    .top-header {
-      display: flex;
-      justify-content: space-between;
-      gap: 0;
-      padding: 5%;
-    }
-    
-    .navigation {
-        color: white;
-        padding: 2%;
-    }
-    .banner-content {
-      flex: 2;
   }
-  
-  .banner-product {
-    flex: 2;
-    z-index: 1;
-}
-    }
 
   @media (min-width: 1280px) {
     .product {
@@ -385,6 +333,22 @@ footer{
       border-radius: 5px;
       width: 20%;
       margin-bottom: 4%;
+  }
+  .banner-content img {
+    display:initial;
+  }
+  .banner {
+    display: flex;
+    padding-top: 0;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  .banner-content {
+    padding: 1rem;
+    /* background-color: #e0e0e0; */
+    border-radius: 5px;
+    width: 45%;
+    margin-bottom: 5%;
   }
    }
    /* @media only screen and (min-width: 1536px) {
